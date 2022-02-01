@@ -2,8 +2,8 @@ import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
 import { sections, openseaBtnTxt } from '../texts'
-import { ReactComponent as Discord } from '../img/Discord.svg'
-import { ReactComponent as Tweeter } from '../img/Tweeter.svg'
+import Discord from '../img/Discord.svg'
+import Tweeter from '../img/Tweeter.svg'
 
 import './SectionFour.scss'
 

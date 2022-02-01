@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from '@trendyol-js/react-carousel'
 
-import { ReactComponent as ArrowLeft } from '../img/ArrowLeft.svg'
-import { ReactComponent as ArrowRight } from '../img/ArrowRight.svg'
+import ArrowLeft from '../img/ArrowLeft.svg'
+import ArrowRight from '../img/ArrowRight.svg'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
 import { sections } from '../texts'

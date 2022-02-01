@@ -2,7 +2,7 @@ import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
 import Header from '../Header/Header'
-import { ReactComponent as ArrowUp } from '../img/ArrowUp.svg'
+import ArrowUp from '../img/ArrowUp.svg'
 import { footerTxt } from '../texts'
 
 import './Footer.scss'

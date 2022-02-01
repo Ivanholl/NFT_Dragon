@@ -1,9 +1,9 @@
 import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
-import { ReactComponent as GoalBorder } from '../img/GoalBorder.svg'
-import { ReactComponent as GoalConnector } from '../img/GoalConnector.svg'
-import { ReactComponent as MainGoalConnector } from '../img/MainGoalConnector.svg'
+import GoalBorder from '../img/GoalBorder.svg'
+import GoalConnector from '../img/GoalConnector.svg'
+import MainGoalConnector from '../img/MainGoalConnector.svg'
 import { sections, roadmap } from '../texts'
 
 import './SectionThree.scss'
