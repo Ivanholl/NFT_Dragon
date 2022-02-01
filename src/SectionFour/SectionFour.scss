@@ -1,0 +1,20 @@
+@import '../mixins.scss';
+
+.section-four {
+  margin: 110px 0;
+
+  svg {
+    margin: 0 50px;
+  }
+  .button {
+    font-family: Avenir LT Std;
+    background: $btnGradient;
+    padding: 15px 54px;
+    -webkit-appearance: none;
+    border-left: 3px solid $pink;
+    border-right: 3px solid $pink;
+    border-top: none;
+    border-bottom: none;
+    margin: 110px 0;
+  }
+}

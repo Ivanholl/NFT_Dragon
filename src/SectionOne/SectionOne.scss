@@ -1,0 +1,69 @@
+@import '../mixins.scss';
+
+.section-one {
+  margin: 110px 0;
+
+  .card {
+    width: 390px;
+    color: $white;
+
+    .border-container {
+      width: 17px;
+    }
+    .card-content {
+      margin: 0 25px;
+      
+      .polygon {
+        margin: 10px 0 0 -27px;
+      }
+    }
+
+    h3 {
+      font-family: Avenir LT Std;
+      text-align: center;
+      font-weight: normal;
+      font-size: 29px;
+      line-height: 38px;
+      text-transform: uppercase;
+      margin: 0;
+      margin-bottom: 35px;
+      min-height: 75px;
+    }
+    .svg {
+      min-height: 195px;
+    }
+
+    .description {
+      position: relative;
+      
+      svg {
+        position: absolute;
+
+        &:first-of-type {
+          top: -10px;
+          left: -10px;
+        }
+        &:last-of-type {
+          bottom: -10px;
+          right: -10px;
+        }
+      }
+
+      .description-background {
+        width: 100%;
+        height: 260px;
+        padding: 20px;
+        background: $txtGradient;
+        border-radius: 15px 0 15px 0;
+        
+        p {
+          margin: 0;
+          text-align: center;
+          font-family: Avenir LT Std;
+          font-size: 20px;
+          line-height: 38px;
+        }
+      }
+    }
+  }
+}

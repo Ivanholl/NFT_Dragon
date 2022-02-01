@@ -1,0 +1,57 @@
+@import './mixins.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  font-family: Robtronika;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+.pink {
+  color: $pink;
+}
+.white {
+  color: $white;
+}
+
+
+.flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.center {
+  justify-content: center;
+}
+
+.flex-end {
+  align-items: flex-end;
+}

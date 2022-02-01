@@ -1,0 +1,77 @@
+@import '../mixins.scss';
+
+.section-three {
+  margin: 110px 0;
+  .border {
+    border-right: 2px solid $white;
+  }
+  .left {
+    margin-right: -6px;
+    text-align: right;
+    .goal-container {
+      flex-direction: row-reverse;
+      justify-content: end;
+    }
+    .goal-connector {
+      transform: rotate(180deg);
+    }
+  }
+  .right {
+    padding-top: 145px;
+    margin-left: -6px;
+    text-align: left;
+    .goal-container {
+      flex-direction: row;
+      justify-content: start;
+    }
+    .main-goal-connector {
+      transform: rotate(180deg);
+    }
+  }
+  .goal-container {
+    margin-bottom: 200px;
+
+    &.empty {
+      margin-bottom: 290px;
+    }
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    .goal-connector,
+    .main-goal-connector {
+      margin-top: 20px;
+    }
+
+    .goal {
+      width: 385px;
+      height: 90px;
+      position: relative;
+      
+      .text {
+        width: calc(100% - 4px);
+        height: calc(100% - 5px);
+        padding: 15px;
+        border-radius: 30px 0 15px 0;
+        margin: 3px;
+        display: inline-block;
+        
+        &.main {
+          background: $btnGradient;
+        }
+        span {
+          font-family: Avenir LT Std;
+        }
+        h4 {
+          font-size: 40px;
+          margin: 5px;
+        }
+        h5 {
+          margin: 5px 0;
+        }
+      }
+      .goal-border {
+        position: absolute;
+      }
+    }
+  }
+}

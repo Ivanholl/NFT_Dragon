@@ -1,0 +1,16 @@
+@import '../mixins.scss';
+
+.footer {
+  margin: 110px 0 0 0;
+  .header {
+    position: relative;
+  }
+  p {
+    margin-top: 75px;
+    text-align: center;
+    font-family: Avenir LT Std;
+  }
+  .title-container .title-with-dragon {
+    display: none;
+  }
+}

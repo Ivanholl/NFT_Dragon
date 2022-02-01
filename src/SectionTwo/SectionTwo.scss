@@ -1,0 +1,26 @@
+@import '../mixins.scss';
+
+.section-two {
+  margin: 110px 0;
+
+  .carousel-container {
+    margin: 70px 0;
+
+    img {
+      margin: 0 5px;
+      width: 350px;
+      height: 480px;
+    }
+    svg {
+      margin: 0 auto;
+    }
+    .arrow-right {
+      height: 100%;
+      width: 100px;
+    }
+    .arrow-left {
+      height: 100%;
+      margin: 0 20px;
+    }
+  }
+}
