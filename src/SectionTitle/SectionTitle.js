@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SeparatorLeft from '../img/SeparatorLeft.svg'
-import SeparatorRight from '../img/SeparatorRight.svg'
+import { ReactComponent as SeparatorLeft } from '../img/SeparatorLeft.svg'
+import { ReactComponent as SeparatorRight } from '../img/SeparatorRight.svg'
 import './SectionTitle.scss'
 
 function SectionTitle({titleText}) {

@@ -1,14 +1,14 @@
 import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
-import Vector from '../img/Vector.svg'
-import Swirl from '../img/Swirl.svg'
-import R2d2 from '../img/R2d2.svg'
-import Planet from '../img/Planet.svg'
-import CardBorderLeft from '../img/CardBorderLeft.svg'
-import CardBorderRight from '../img/CardBorderRight.svg'
-import DescriptionBorderBottom from '../img/DescriptionBorderBottom.svg'
-import DescriptionBorderTop from '../img/DescriptionBorderTop.svg'
+import { ReactComponent as Vector } from '../img/Vector.svg'
+import { ReactComponent as Swirl } from '../img/Swirl.svg'
+import { ReactComponent as R2d2 } from '../img/R2d2.svg'
+import { ReactComponent as Planet } from '../img/Planet.svg'
+import { ReactComponent as CardBorderLeft } from '../img/CardBorderLeft.svg'
+import { ReactComponent as CardBorderRight } from '../img/CardBorderRight.svg'
+import { ReactComponent as DescriptionBorderBottom } from '../img/DescriptionBorderBottom.svg'
+import { ReactComponent as DescriptionBorderTop } from '../img/DescriptionBorderTop.svg'
 
 import { cardsTxt, sections } from '../texts'
 
