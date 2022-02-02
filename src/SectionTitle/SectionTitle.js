@@ -7,12 +7,12 @@ import './SectionTitle.scss'
 function SectionTitle({titleText}) {
   return (    
     <div className="flex row space-around">
-      <SeparatorLeft />
+      <img src={SeparatorLeft} />
       <div className="title-container">
         <h2 className="white">{titleText}</h2>
         <div className="title-with-dragon"/>
       </div>
-      <SeparatorRight />
+      <img src={SeparatorRight} />
     </div>
   )
 }

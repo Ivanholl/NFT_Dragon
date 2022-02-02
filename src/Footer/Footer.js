@@ -17,7 +17,7 @@ const Footer = () => {
       behavior: 'smooth'
     })
   }
-  const arrorUp = () => <a href="#splash" onClick={(e) => handleClick(e)}><ArrowUp /></a>
+  const arrorUp = () => <a href="#splash" onClick={(e) => handleClick(e)}><img src={ArrowUp} /></a>
   return (<div className="footer">
     <SectionTitle titleText={arrorUp()} />
     <Header />
