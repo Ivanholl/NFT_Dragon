@@ -9,6 +9,9 @@
 
     .border-container {
       width: 17px;
+      img {
+        height: 100%;
+      }
     }
     .card-content {
       margin: 0 25px;
@@ -22,7 +25,7 @@
       font-family: Avenir LT Std;
       text-align: center;
       font-weight: normal;
-      font-size: 29px;
+      font-size: 1.5vw;
       line-height: 38px;
       text-transform: uppercase;
       margin: 0;
@@ -30,13 +33,17 @@
       min-height: 75px;
     }
     .svg {
-      min-height: 195px;
+      height: 10.4vw;
+
+      img {
+        height: 100%;
+      }
     }
 
     .description {
       position: relative;
       
-      svg {
+      img {
         position: absolute;
 
         &:first-of-type {
@@ -52,7 +59,7 @@
       .description-background {
         width: 100%;
         height: 260px;
-        padding: 20px;
+        padding: 18px;
         background: $txtGradient;
         border-radius: 15px 0 15px 0;
         
@@ -60,10 +67,21 @@
           margin: 0;
           text-align: center;
           font-family: Avenir LT Std;
-          font-size: 20px;
+          font-size: 1.1vw;
           line-height: 38px;
         }
       }
     }
+  }
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+  .section-one .card .description .description-background{
+    height: 175px;
+  }
+  .section-one .card .border-container {
+    height: 480px;
   }
 }

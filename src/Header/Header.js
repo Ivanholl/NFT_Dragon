@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from '../img/Logo.svg'
+// import Logo from '../img/Logo.svg'
 import { sections } from '../texts'
 
 import './Header.scss'
@@ -16,7 +16,9 @@ function Header() {
   }
   return (
     <div className="header flex row space-between">
-      <a className="link" href="/"><Logo /></a>
+      <a className="link" href="/">
+        <img src="../img/Logo.svg" />
+      </a>
       <div className="links flex row space-around flex-end">
         {sections.map((section) => <a className="link white" key={section} href={`#${section}`} onClick={(e) => handleClick(e)}>{section}</a>)}
       </div>

@@ -29,14 +29,14 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
-      },    
+      },
       {
         test: /\.svg$/,
-        use: ['@svgr/webpack', 'url-loader'],
+        use: ['@svgr/webpack'],
       },
     ]
   },
-  resolve: { extensions: ['*', '.js', '.svg', '.jsx'] },
+  resolve: { extensions: ['*', '.js', '.jsx'] },
   output: {
     path: path.resolve(__dirname, './public/dist/'),
     publicPath: './dist/',

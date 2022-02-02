@@ -8,11 +8,16 @@
 
     img {
       margin: 0 5px;
-      width: 350px;
-      height: 480px;
-    }
-    svg {
+      width: 19vw;
+      height: 26vw;
       margin: 0 auto;
+    }
+    .arrow-right,
+    .arrow-left {
+      img {
+        width: 49px;
+        height: 71px;
+      }
     }
     .arrow-right {
       height: 100%;

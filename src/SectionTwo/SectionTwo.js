@@ -1,8 +1,9 @@
 import React from 'react'
 import { Carousel } from '@trendyol-js/react-carousel'
 
-import ArrowLeft from '../img/ArrowLeft.svg'
-import ArrowRight from '../img/ArrowRight.svg'
+// import ArrowLeft from '../img/ArrowLeft.svg'
+// import ArrowRight from '../img/ArrowRight.svg'
+
 
 import SectionTitle from '../SectionTitle/SectionTitle'
 import { sections } from '../texts'
@@ -17,8 +18,12 @@ const SectionTwo = () => {
         show={4.2}
         swiping
         responsive
-        rightArrow={<div className="arrow-right flex col center"><ArrowRight /></div>}
-        leftArrow={<div className="arrow-left flex col center"><ArrowLeft /></div>}
+        rightArrow={<div className="arrow-right flex col center">
+          <img src="../img/ArrowRight.svg" />
+        </div>}
+        leftArrow={<div className="arrow-left flex col center">
+          <img src="../img/ArrowLeft.svg" />
+        </div>}
       >
         <img src="/Dragon/0.png" />
         <img src="/Dragon/1.png" />

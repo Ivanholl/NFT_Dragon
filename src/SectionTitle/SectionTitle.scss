@@ -1,25 +1,30 @@
 @import '../mixins.scss';
 
 .title-container {
-  position: relative;
   margin-bottom: 110px;
-  min-width: 380px;
-
-  h2 {
-    margin: 0;
-    font-weight: normal;
-    text-align: center;
-    font-size: 1.3vw;
+  img {
+    max-width: 29vw;
   }
-  .title-with-dragon {
-    position: absolute;
-    top: -320px;
-    left: -123px;
-    width: 610px;
-    height: 610px;
-    opacity: 0.9;
-    z-index: -1;
-    background-image: url('../img/title-with-dragon.png');
+  .title {
+    position: relative;
+    min-width: 380px;
 
+    h2 {
+      margin: 0;
+      font-weight: normal;
+      text-align: center;
+      font-size: 1.3vw;
+    }
+    .title-with-dragon {
+      position: absolute;
+      top: -320px;
+      left: -123px;
+      width: 610px;
+      height: 610px;
+      opacity: 0.9;
+      z-index: -1;
+      background-image: url('../img/title-with-dragon.png');
+
+    }
   }
 }

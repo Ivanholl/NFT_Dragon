@@ -1,14 +1,14 @@
 import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
-import Vector from '../img/Vector.svg'
-import Swirl from '../img/Swirl.svg'
-import R2d2 from '../img/R2d2.svg'
-import Planet from '../img/Planet.svg'
-import CardBorderLeft from '../img/CardBorderLeft.svg'
-import CardBorderRight from '../img/CardBorderRight.svg'
-import DescriptionBorderBottom from '../img/DescriptionBorderBottom.svg'
-import DescriptionBorderTop from '../img/DescriptionBorderTop.svg'
+// import Vector from '../img/Vector.svg'
+// import Swirl from '../img/Swirl.svg'
+// import R2d2 from '../img/R2d2.svg'
+// import Planet from '../img/Planet.svg'
+// import CardBorderLeft from '../img/CardBorderLeft.svg'
+// import CardBorderRight from '../img/CardBorderRight.svg'
+// import DescriptionBorderBottom from '../img/DescriptionBorderBottom.svg'
+// import DescriptionBorderTop from '../img/DescriptionBorderTop.svg'
 
 import { cardsTxt, sections } from '../texts'
 
@@ -18,22 +18,23 @@ const Card = (props) => {
   const {title, description} = props
   return (<div className="card flex row center">
     <div className="border-container">
-      <CardBorderLeft />
+      <img src="../img/CardBorderLeft.svg" />
     </div>
     <div className="card-content">
-      <Vector className="polygon"/>
+      <img src="../img/Vector.svg" />
+
       <div className="svg flex center">{props.children}</div>
       <h3>{title}</h3>
       <div className="description">
-        <DescriptionBorderTop />
+        <img src="../img/DescriptionBorderTop.svg" />
         <div className="description-background">
           <p>{description}</p>
         </div>
-        <DescriptionBorderBottom />
+        <img src="../img/DescriptionBorderBottom.svg" />
       </div>
     </div>
     <div className="border-container">
-      <CardBorderRight />
+      <img src="../img/CardBorderRight.svg" />
     </div>
   </div>)
 }
@@ -41,15 +42,15 @@ const Card = (props) => {
 const SectionOne = () => {
   return (<div id={sections[0].replaceAll(' ', '')} className="section-one">
     <SectionTitle titleText={sections[0]} />
-    <div className=" flex row space-evenly">
+    <div className="flex row space-evenly">
       <Card title={cardsTxt?.cardOne?.title} description={cardsTxt?.cardOne?.description} >
-        <Swirl />
+        <img src="../img/Swirl.svg" />
       </Card>
       <Card title={cardsTxt?.cardTwo?.title} description={cardsTxt?.cardTwo?.description} >
-        <R2d2 />
+        <img src="../img/R2d2.svg" />
       </Card>
       <Card title={cardsTxt?.cardThree?.title} description={cardsTxt?.cardThree?.description} >
-        <Planet />      
+        <img src="../img/Planet.svg" />      
       </Card>
     </div>
   </div>)

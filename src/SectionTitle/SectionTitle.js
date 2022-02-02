@@ -1,18 +1,18 @@
 import React from 'react'
 
-import SeparatorLeft from '../img/SeparatorLeft.svg'
-import SeparatorRight from '../img/SeparatorRight.svg'
+// import SeparatorLeft from '../img/SeparatorLeft.svg'
+// import SeparatorRight from '../img/SeparatorRight.svg'
 import './SectionTitle.scss'
 
 function SectionTitle({titleText}) {
   return (    
-    <div className="flex row space-around">
-      <SeparatorLeft />
-      <div className="title-container">
+    <div className="title-container flex row space-around">
+      <img src="../img/SeparatorLeft.svg" />
+      <div className="title">
         <h2 className="white">{titleText}</h2>
         <div className="title-with-dragon"/>
       </div>
-      <SeparatorRight />
+      <img src="../img/SeparatorRight.svg" />
     </div>
   )
 }

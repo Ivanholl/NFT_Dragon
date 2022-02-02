@@ -1,8 +1,0 @@
-<svg width="71" height="78" viewBox="0 0 71 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.3" d="M1 40L35 76L70 40" stroke="white"/>
-<path opacity="0.3" d="M1 35L35 71L70 35" stroke="white"/>
-<path opacity="0.3" d="M1 30L35 66L70 30" stroke="white"/>
-<path d="M49 62L35 76L21.5 62" stroke="white" stroke-width="2"/>
-<path d="M43 62.5L35 71L27 62.5M38 62.5L35 66L31.5 62.5" stroke="white" stroke-width="4"/>
-<path d="M35.5 63V0" stroke="white" stroke-width="2"/>
-</svg>

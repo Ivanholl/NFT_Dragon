@@ -1,18 +1,18 @@
 import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
-import GoalBorder from '../img/GoalBorder.svg'
-import GoalConnector from '../img/GoalConnector.svg'
-import MainGoalConnector from '../img/MainGoalConnector.svg'
+// import GoalBorder from '../img/GoalBorder.svg'
+// import MainGoalConnector from '../img/MainGoalConnector.svg'
+// import GoalConnector from '../img/GoalConnector.svg'
 import { sections, roadmap } from '../texts'
 
 import './SectionThree.scss'
 
 const Goal = ({isMain, title, text}) => {
   return (<div className="goal-container flex" >    
-    {isMain ? <MainGoalConnector className="main-goal-connector"/> : <GoalConnector className="goal-connector"/>}
+    {isMain ? <img src="../img/MainGoalConnector.svg" className="main-goal-connector"/> : <img src="../img/GoalConnector.svg" className="goal-connector"/>}
     <div className="goal" >
-      <GoalBorder className="goal-border"/>
+      <img src="../img/GoalBorder.svg" className="goal-border"/>
       {isMain
         ? (<>
           <div className="text main" >

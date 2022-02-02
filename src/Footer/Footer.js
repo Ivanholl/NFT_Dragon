@@ -2,7 +2,7 @@ import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
 import Header from '../Header/Header'
-import ArrowUp from '../img/ArrowUp.svg'
+// import ArrowUp from '../img/ArrowUp.svg'
 import { footerTxt } from '../texts'
 
 import './Footer.scss'
@@ -17,7 +17,10 @@ const Footer = () => {
       behavior: 'smooth'
     })
   }
-  const arrorUp = () => <a href="#splash" onClick={(e) => handleClick(e)}><ArrowUp /></a>
+  const arrorUp = () => <a href="#splash" onClick={(e) => handleClick(e)}>
+    {/* <ArrowUp /> */}
+    <img src="../img/ArrowUp.svg" />
+  </a>
   return (<div className="footer">
     <SectionTitle titleText={arrorUp()} />
     <Header />
