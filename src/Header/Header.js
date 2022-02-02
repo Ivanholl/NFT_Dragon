@@ -16,7 +16,7 @@ function Header() {
   }
   return (
     <div className="header flex row space-between">
-      <a className="link" href="/"><img src={Logo} /></a>
+      <a className="link" href="/"><Logo /></a>
       <div className="links flex row space-around flex-end">
         {sections.map((section) => <a className="link white" key={section} href={`#${section}`} onClick={(e) => handleClick(e)}>{section}</a>)}
       </div>

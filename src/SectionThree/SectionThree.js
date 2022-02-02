@@ -10,9 +10,9 @@ import './SectionThree.scss'
 
 const Goal = ({isMain, title, text}) => {
   return (<div className="goal-container flex" >    
-    {isMain ? <img src={MainGoalConnector} className="main-goal-connector"/> : <img src={GoalConnector} className="goal-connector"/>}
+    {isMain ? <MainGoalConnector className="main-goal-connector"/> : <GoalConnector className="goal-connector"/>}
     <div className="goal" >
-      <img src={GoalBorder} className="goal-border"/>
+      <GoalBorder className="goal-border"/>
       {isMain
         ? (<>
           <div className="text main" >
