@@ -1,6 +1,7 @@
 @import '../mixins.scss';
 
 .header {
+  top: 0;
   position: absolute;
   width: 100%;
   padding: 20px 50px 0 70px;
@@ -11,6 +12,21 @@
       margin: 0 1vw;
       font-size: .8vw;
 
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    padding: 15px;
+    .link {
+      img {
+        width: 50vw;
+      }
+    }
+    .links {
+      display: none;
     }
   }
 }

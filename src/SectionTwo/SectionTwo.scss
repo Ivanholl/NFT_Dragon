@@ -12,6 +12,9 @@
       height: 26vw;
       margin: 0 auto;
     }
+    p.white {
+      font-family: Avenir LT Std;
+    }
     .arrow-right,
     .arrow-left {
       img {
@@ -26,6 +29,20 @@
     .arrow-left {
       height: 100%;
       margin: 0 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .section-two .carousel-container {
+    img {
+      width: 250px;
+      height: 300px;
+    }
+    .arrow-right,
+    .arrow-left {
+      margin: 5px;
+      width: auto;
     }
   }
 }

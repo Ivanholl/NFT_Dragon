@@ -75,13 +75,55 @@
   }
 }
 
-
-
 @media only screen and (max-width: 1100px) {
   .section-one .card .description .description-background{
     height: 175px;
   }
   .section-one .card .border-container {
     height: 480px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .section-one  {
+    margin: 70px 0;
+    div.cards-container {
+      flex-direction: column;
+      
+      .card  {
+        margin: 0 auto;
+        width: calc(100% - 30px);
+        max-width: 450px;
+
+        .card-content {
+          width: calc(100% - 50px - 12vw);
+          margin: 0 6vw;
+
+          .polygon {
+            width: 30px;
+            height: 30px;
+            margin: 10px 0 0 -22px;
+          }
+          .svg {
+            height: 100px;
+          }
+          h3 {
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 30px;
+            padding-top: 10px;
+          }
+          .description .description-background {
+            padding: 10px;
+            p {
+              font-size: 16px;
+              line-height: 24px;
+            }
+          } 
+        }
+      }
+    }
   }
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 
+import Header from '../Header/Header'
 import { splashText } from '../texts'
 import './Splash.scss'
 
 function Splash() {
   return (
     <div id="splash" className="splash flex col space-around">
+      <Header />
       <div className="title flex row center">
         <div className="flex col center">
           <h1 className="pink">{splashText?.title1}</h1>

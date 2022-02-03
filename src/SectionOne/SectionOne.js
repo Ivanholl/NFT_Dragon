@@ -21,7 +21,7 @@ const Card = (props) => {
       <img src="../img/CardBorderLeft.svg" />
     </div>
     <div className="card-content">
-      <img src="../img/Vector.svg" />
+      <img src="../img/Vector.svg" className="polygon"/>
 
       <div className="svg flex center">{props.children}</div>
       <h3>{title}</h3>
@@ -42,7 +42,7 @@ const Card = (props) => {
 const SectionOne = () => {
   return (<div id={sections[0].replaceAll(' ', '')} className="section-one">
     <SectionTitle titleText={sections[0]} />
-    <div className="flex row space-evenly">
+    <div className="cards-container flex row space-evenly">
       <Card title={cardsTxt?.cardOne?.title} description={cardsTxt?.cardOne?.description} >
         <img src="../img/Swirl.svg" />
       </Card>

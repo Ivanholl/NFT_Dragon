@@ -11,18 +11,29 @@ import { sections } from '../texts'
 import './SectionTwo.scss'
 
 const SectionTwo = () => {
+  const winWidth = window.screen.availWidth
+  const showArrows = winWidth > 768
+  const step = showArrows ? 500 : 300
+  const numOfImg = winWidth / step
+  console.log(numOfImg)
   return (<div id={sections[1].replaceAll(' ', '')} className="section-two">
     <SectionTitle titleText={sections[1]} />
     <div className="carousel-container">
       <Carousel 
-        show={4.2}
+        show={numOfImg}
         swiping
         responsive
-        rightArrow={<div className="arrow-right flex col center">
-          <img src="../img/ArrowRight.svg" />
-        </div>}
         leftArrow={<div className="arrow-left flex col center">
-          <img src="../img/ArrowLeft.svg" />
+          {showArrows 
+            ? <img src="../img/ArrowLeft.svg" />
+            : <p className="white">{'<'}</p>
+          }            
+        </div>}
+        rightArrow={<div className="arrow-right flex col center">
+          {showArrows 
+            ? <img src="../img/ArrowRight.svg" />
+            : <p className="white">{'>'}</p>
+          }            
         </div>}
       >
         <img src="/Dragon/0.png" />

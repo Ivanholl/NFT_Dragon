@@ -28,3 +28,24 @@
     }
   }
 }
+
+@media only screen and (max-width: 1023px) {
+  div.title-container {
+    margin-bottom: 70px;
+
+    .title {
+      min-width: 220px;
+
+      h2 {
+        font-size: 3.3vw;
+      }
+      .title-with-dragon {
+        width: 350px;
+        height: 350px;
+        top: -190px;
+        left: -55px;
+        background-size: contain;
+      }
+    }
+  }
+}

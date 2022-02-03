@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Header from './Header/Header'
 import Splash from './Splash/Splash'
 import SectionOne from './SectionOne/SectionOne'
 import SectionTwo from './SectionTwo/SectionTwo'
@@ -12,7 +11,6 @@ import './App.scss'
 
 function App() {
   return (<>
-    <Header />
     <Splash />
     <SectionOne />
     <SectionTwo />
