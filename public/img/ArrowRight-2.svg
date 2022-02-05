@@ -4,4 +4,7 @@
 <path opacity="0.3" d="M1 70L37 36L1 1" stroke="white"/>
 <path d="M33 22L47 36L33 49.5" stroke="white" stroke-width="2"/>
 <path d="M33.5 28L42 36L33.5 44M33.5 33L37 36L33.5 39.5" stroke="white" stroke-width="4"/>
+<path d="M1 1L1.5 70" stroke="white"/>
+<path d="M6 1V70" stroke="white"/>
+<path d="M11 1V70" stroke="white"/>
 </svg>

@@ -38,8 +38,8 @@ const SectionTwo = () => {
       <Slide ref={sliderRef} {...sliderProperties}>
         {slideImages.map((slideImage, index) => (
           <div className="each-slide" key={index}>
-            <div style={{'backgroundImage': `url(${slideImage.url})`}}>
-              <span>{slideImage.caption}</span>
+            <div style={{'backgroundImage': `url(${slideImage?.url})`}}>
+              <span>{slideImage?.caption}</span>
             </div>
           </div>
         ))}

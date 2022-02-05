@@ -17,12 +17,11 @@ const Footer = () => {
       behavior: 'smooth'
     })
   }
-  const arrorUp = () => <a href="#splash" onClick={(e) => handleClick(e)}>
-    {/* <ArrowUp /> */}
-    <img src="../img/ArrowUp.svg" />
-  </a>
+
+  const arrowUp = () => <a href="#splash" onClick={(e) => handleClick(e)}><img className="animated-bounce"  src="../img/ArrowUp.svg" /></a>
+
   return (<div className="footer">
-    <SectionTitle titleText={arrorUp()} />
+    <SectionTitle titleText={arrowUp()} />
     <Header />
     <p className="white">{footerTxt}</p>
   </div>)

@@ -1,3 +1,6 @@
-<svg width="386" height="90" viewBox="0 0 386 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="386" height="91" viewBox="0 0 386 91" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1 71V27L16 1H385V77L364 89.5H91" stroke="white" stroke-opacity="0.3"/>
+<path d="M36.5 1H57.5" stroke="white" stroke-width="2"/>
+<path d="M270.5 1H305" stroke="white" stroke-width="2"/>
+<path d="M343.5 89H364.5L380.5 79M91 89.5H109" stroke="white" stroke-width="2"/>
 </svg>

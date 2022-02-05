@@ -9,23 +9,30 @@
   .button {
     font-family: Avenir LT Std;
     background: $btnGradient;
-    padding: 15px 54px;
+    padding: 10px 50px;
     -webkit-appearance: none;
     border-left: 3px solid $pink;
     border-right: 3px solid $pink;
     border-top: none;
     border-bottom: none;
     margin: 110px 0;
+    font-size: 30px;
+    text-decoration: none;
+
   }
 }
 
 @media only screen and (max-width: 1023px) {
   .section-four {
-    margin: 100px 0 50px 0;
+    margin: 100px 0 35px 0;
     img {
       margin: 0 25px;
       height: 75px;
       width: 75px;
+    }
+    .button {
+      font-size: 20px;
+      margin: 75px 0;
     }
   }
 }

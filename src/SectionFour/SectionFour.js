@@ -1,7 +1,7 @@
 import React from 'react'
 
 import SectionTitle from '../SectionTitle/SectionTitle'
-import { sections, openseaBtnTxt } from '../texts'
+import { sections, openseaBtnTxt, openseaLinkTwo } from '../texts'
 // import Discord from '../img/Discord.svg'
 // import Tweeter from '../img/Tweeter.svg'
 
@@ -13,11 +13,11 @@ const SectionFour = () => {
     <div className="flex row center">
       {/* <Discord /> */}
       {/* <Tweeter /> */}
-      <img src="../img/Discord.svg" /> 
-      <img src="../img/Tweeter.svg" /> 
+      <a href="https://discord.gg/Yu8wVr4hWm" target="_blank" rel="noreferrer"><img src="../img/Discord.svg" /></a>
+      <a href="https://twitter.com/dragon_eth" target="_blank" rel="noreferrer"><img src="../img/Tweeter.svg" /></a> 
     </div>
     <div className="flex row center">
-      <a className="button white">{openseaBtnTxt}</a>
+      <a href={openseaLinkTwo} className="button white">{openseaBtnTxt}</a>
     </div>
   </div>)
 }

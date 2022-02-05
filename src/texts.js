@@ -9,7 +9,7 @@ export const splashText = {
   // should be same length
   title1: 'Let\'s go into',
   title2: 'the Metaverse',
-  button: 'Official Pre-sale'
+  button: 'Official Sale'
 }
 
 export const openseaBtnTxt = 'Buy in Opensea'
@@ -82,30 +82,65 @@ export const roadmap = {
 export const slideImages = [
   {
     url: '/Dragon/0.png',
-    caption: 'Dragon 0'
+    caption: 'Dragon 1'
   },
   {
     url: '/Dragon/1.png',
-    caption: 'Dragon 3478961'
+    caption: 'Dragon 2'
   },
   {
     url: '/Dragon/2.png',
-    caption: 'Dragon 2'
-  },  
-  {
-    url: '/Dragon/3.png',
     caption: 'Dragon 3'
   },  
   {
-    url: '/Dragon/4.png',
+    url: '/Dragon/3.png',
     caption: 'Dragon 4'
   },  
   {
-    url: '/Dragon/5.png',
+    url: '/Dragon/4.png',
     caption: 'Dragon 5'
   },  
   {
-    url: '/Dragon/6.png',
+    url: '/Dragon/5.png',
     caption: 'Dragon 6'
+  },  
+  {
+    url: '/Dragon/6.png',
+    caption: 'Dragon 7'
+  },
+  {
+    url: '/Dragon/7.png',
+    caption: 'Dragon 8'
+  },
+  {
+    url: '/Dragon/8.png',
+    caption: 'Dragon 9'
+  },
+  {
+    url: '/Dragon/9.png',
+    caption: 'Dragon 10'
+  },  
+  {
+    url: '/Dragon/10.png',
+    caption: 'Dragon 11'
+  },  
+  {
+    url: '/Dragon/11.png',
+    caption: 'Dragon 12'
+  },  
+  {
+    url: '/Dragon/12.png',
+    caption: 'Dragon 13'
+  },  
+  {
+    url: '/Dragon/13.png',
+    caption: 'Dragon 14'
+  },  
+  {
+    url: '/Dragon/14.png',
+    caption: 'Dragon 15'
   }
 ]
+
+export const openseaLinkOne = 'https://opensea.io/collection/dragon-with-hidden-eth'
+export const openseaLinkTwo = 'https://opensea.io/collection/dragon-with-hidden-eth'

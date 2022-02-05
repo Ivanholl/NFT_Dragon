@@ -8,11 +8,10 @@ import { sections, roadmap } from '../texts'
 
 import './SectionThree.scss'
 
-const Goal = ({isMain, title, text}) => {
-
+const Goal = ({className, isMain, title, text}) => {
   return (<div className="goal-container flex" >    
     {isMain ? <img src="../img/MainGoalConnector.svg" className="main-goal-connector"/> : <img src="../img/GoalConnector.svg" className="goal-connector"/>}
-    <div className="goal" >
+    <div className={`${className} goal`} >
       <img src="../img/GoalBorder.svg" className="goal-border"/>
       {isMain
         ? (<>
@@ -61,7 +60,7 @@ const SectionThree = () => {
             <Goal title={phase2.goal3.title} text={phase2.goal3.text}/>
             {empty()}
             <Goal title={phase3.goal1.title} text={phase3.goal1.text}/>
-            <Goal title={phase3.goal3.title} text={phase3.goal3.text}/>
+            <Goal className="last" title={phase3.goal3.title} text={phase3.goal3.text}/>
           </div>
         </>
         : <>
