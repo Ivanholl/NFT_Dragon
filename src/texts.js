@@ -78,3 +78,34 @@ export const roadmap = {
     }
   }
 }
+
+export const slideImages = [
+  {
+    url: '/Dragon/0.png',
+    caption: 'Dragon 0'
+  },
+  {
+    url: '/Dragon/1.png',
+    caption: 'Dragon 3478961'
+  },
+  {
+    url: '/Dragon/2.png',
+    caption: 'Dragon 2'
+  },  
+  {
+    url: '/Dragon/3.png',
+    caption: 'Dragon 3'
+  },  
+  {
+    url: '/Dragon/4.png',
+    caption: 'Dragon 4'
+  },  
+  {
+    url: '/Dragon/5.png',
+    caption: 'Dragon 5'
+  },  
+  {
+    url: '/Dragon/6.png',
+    caption: 'Dragon 6'
+  }
+]

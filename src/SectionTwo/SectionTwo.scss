@@ -1,3 +1,5 @@
+@import "react-slideshow-image/dist/styles.css";
+
 @import '../mixins.scss';
 
 .section-two {
@@ -5,44 +7,95 @@
 
   .carousel-container {
     margin: 70px 0;
+    position: relative;
 
-    img {
-      margin: 0 5px;
-      width: 19vw;
+    .each-slide > div {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background-size: cover;
+      width: 18vw;
       height: 26vw;
-      margin: 0 auto;
+
+      span {
+        font-weight: bolder;
+        background: $pink;
+        padding: 5px 10px;
+        justify-self: start;
+        align-self: end;
+      }
     }
-    p.white {
-      font-family: Avenir LT Std;
+    
+    .indicator {
+      width: 30px;
+      color: $pink;
+      text-align: center;
+      cursor: pointer;
+      border: 1px $pink solid;
+    }
+    .indicator.active {
+      background: #000;
+      color: $white;
     }
     .arrow-right,
     .arrow-left {
+      position: absolute;
+      border-radius: 50%;
+      background: $btnGradient;
+      height: 100%;
+      width: 100px;
+      margin: 0 20px;
+      width: 60px;
+      height: 60px;
+      padding: 5px;
+
       img {
-        width: 49px;
-        height: 71px;
+        width: 50px;
+        height: 50px;
       }
     }
     .arrow-right {
-      height: 100%;
-      width: 100px;
+      right: 10px;
     }
     .arrow-left {
-      height: 100%;
-      margin: 0 20px;
-    }
+      left: 10px;
+    } 
   }
 }
 
 @media only screen and (max-width: 1023px) {
   .section-two .carousel-container {
-    img {
-      width: 250px;
-      height: 300px;
+    .each-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      & > div {      
+        background-size: cover;
+        width: 250px;
+        height: 365px;
+      }
     }
     .arrow-right,
     .arrow-left {
       margin: 5px;
       width: auto;
+      width: 35px;
+      height: 35px;
+      padding: 2.5px;
+
+      img {        
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: $txtGradient;
+      }
     }
+    .arrow-right {
+      right: 5px;
+    }
+    .arrow-left {
+      left: 5px;
+    } 
   }
 }
