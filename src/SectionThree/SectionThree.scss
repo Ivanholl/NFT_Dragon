@@ -137,13 +137,36 @@
       }
       .left .goal-container .goal {
         .text {
-          padding: 0 15px 0 0;
+          padding: 0 7px 0 0;
         }
       }
       .right .goal-container .goal{
         .text {
-          padding: 0 0 0 15px;
+          padding: 0 0 0 7px;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section-three {
+    .goal-container {
+      .goal {
+        width: 250px;
+        height: 58px;
+
+        .text h4  {
+          text-align: center;
+          padding: 10px;
+
+        }
+      }      
+    }
+    .roadmap {
+      .left,
+      .right {
+        width: 80%;
       }
     }
   }
