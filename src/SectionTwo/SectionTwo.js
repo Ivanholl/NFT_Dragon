@@ -29,7 +29,7 @@ const SectionTwo = () => {
     defaultIndex: Math.floor(numOfImg),
     prevArrow: (<div className="arrow-left flex col center"><img src="../img/ArrowLeft.svg" /></div>),
     nextArrow: (<div className="arrow-right flex col center"><img src="../img/ArrowRight.svg" /></div>),
-    indicators: (i) => <div className="indicator">{i + 1}</div>,
+    // indicators: (i) => <div className="indicator">{i + 1}</div>,
   }
 
   return (<div id={sections[1].replaceAll(' ', '')} className="section-two">
