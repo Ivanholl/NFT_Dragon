@@ -100,6 +100,7 @@
         font-size: 24px;
         position: absolute;
         width: 200%;
+        bottom: -70px;
       }
       .goal-border {
         position: absolute;
@@ -190,6 +191,9 @@
           text-align: center;
           padding: 10px;
 
+        }
+        .main-span {
+          bottom: -35px;
         }
       }      
     }
