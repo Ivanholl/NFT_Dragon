@@ -14,6 +14,7 @@
 
     &:first-of-type {
       padding-bottom: 30px;
+      margin-left: -65px;
     }
     &:last-of-type {
       padding-top: 30px;
@@ -56,6 +57,9 @@
 
     .title {
       div {
+        &:first-of-type {
+          margin-left: -35px;
+        }
         h1 {
           font-size: 3.7vw;
         }
@@ -77,6 +81,17 @@
       padding: 5px;
       bottom: 2vw;
       right: 5vw;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  div#splash {
+    .title {
+      div {
+        &:first-of-type {
+          margin-left: -50px;
+        }
+      }
     }
   }
 }
