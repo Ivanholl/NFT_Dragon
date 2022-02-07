@@ -50,7 +50,7 @@ export const roadmap = {
   },
   phase2: {
     goalMain: 'Phase 2',
-    mainSpan: 'Many NFTs from one conception like Dragon Underworlds, Dragon in Space, etc.',
+    mainSpan: 'The Game Release - Dragon cards Game with rules and fights.',
     goal1: {
       title: 'Mint:',
       text: '4000 Dragons in the collection'
@@ -66,7 +66,7 @@ export const roadmap = {
   },
   phase3: {
     goalMain: 'Phase 3',
-    mainSpan: 'The Game Release - Dragon cards Game with rules and fights.',
+    mainSpan: 'Many NFTs from one conception like Dragon Underworlds, Dragon in Space, etc.',
     goal1: {
       title: 'Mint:',
       text: '5000 Dragons in the collection'

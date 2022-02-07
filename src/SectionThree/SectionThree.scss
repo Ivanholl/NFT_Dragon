@@ -10,6 +10,9 @@
     text-align: right;
     width: 50%;
 
+    .main-span {
+      right: 0;
+    }
     .goal-container {
       flex-direction: row-reverse;
       justify-content: end;
@@ -27,7 +30,10 @@
     margin-left: -6px;
     text-align: left;
     width: 50%;
-
+    
+    .main-span {
+      left: 0;
+    }
     .goal-container {
       flex-direction: row;
       justify-content: start;
@@ -41,6 +47,9 @@
     // margin-bottom: 200px;
     margin-bottom: 11vw;
 
+    &.isMain {
+      margin-bottom: 150px;
+    }
     &.empty {
       margin-bottom: 290px;
     }
@@ -88,7 +97,9 @@
       .main-span {
         margin-top: 9.5px;
         font-family: Avenir LT Std;
-        font-size: 1.2vw;
+        font-size: 24px;
+        position: absolute;
+        width: 200%;
       }
       .goal-border {
         position: absolute;
@@ -106,6 +117,9 @@
     .goal-container {
       margin-bottom: 50px;
 
+      &.isMain {
+        margin-bottom: 70px;
+      }
       &.empty {
         margin-bottom: 150px;
       };
@@ -136,6 +150,7 @@
         }
         .main-span {
           font-size: 11px;
+          width: 100%;
         }
         &.last {
           width: 85%;
@@ -182,6 +197,22 @@
       .left,
       .right {
         width: 80%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .section-three {
+    .goal-container {
+      &.isMain {
+        margin-bottom: 100px;
+      }
+      .goal {
+        .main-span {
+          width: 160%;
+
+        }
       }
     }
   }

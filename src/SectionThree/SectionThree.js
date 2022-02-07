@@ -9,7 +9,7 @@ import { sections, roadmap } from '../texts'
 import './SectionThree.scss'
 
 const Goal = ({className, isMain, title, text, mainSpan}) => {
-  return (<div className="goal-container flex" >    
+  return (<div className={`${isMain && 'isMain'} goal-container flex`} >    
     {isMain ? <img src="../img/MainGoalConnector.svg" className="main-goal-connector"/> : <img src="../img/GoalConnector.svg" className="goal-connector"/>}
     <div className={`${className} goal`} >
       <img src="../img/GoalBorder.svg" className="goal-border"/>
