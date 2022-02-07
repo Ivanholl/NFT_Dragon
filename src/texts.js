@@ -34,6 +34,7 @@ export const footerTxt = 'Dragon with hidden ETH is an NFT project on Polygon Ne
 export const roadmap = {
   phase1: {
     goalMain: 'Phase 1',
+    mainSpan: '',
     goal1: {
       title: 'Mint:',
       text: '1000 Dragons in the collection'
@@ -49,6 +50,7 @@ export const roadmap = {
   },
   phase2: {
     goalMain: 'Phase 2',
+    mainSpan: 'Many NFTs from one conception like Dragon Underworlds, Dragon in Space, etc.',
     goal1: {
       title: 'Mint:',
       text: '4000 Dragons in the collection'
@@ -64,6 +66,7 @@ export const roadmap = {
   },
   phase3: {
     goalMain: 'Phase 3',
+    mainSpan: 'The Game Release - Dragon cards Game with rules and fights.',
     goal1: {
       title: 'Mint:',
       text: '5000 Dragons in the collection'
@@ -159,8 +162,7 @@ export const slideImages = [
   {
     url: '/Dragon/106.png',
     caption: 'Dragon #00106'
-  }
-  ,  
+  },  
   {
     url: '/Dragon/205.png',
     caption: 'Dragon #00205'

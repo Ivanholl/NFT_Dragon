@@ -85,6 +85,11 @@
           font-size: 1vw;
         }
       }
+      .main-span {
+        margin-top: 9.5px;
+        font-family: Avenir LT Std;
+        font-size: 1.2vw;
+      }
       .goal-border {
         position: absolute;
       }
@@ -94,7 +99,6 @@
     }
   }
 }
-
 @media only screen and (max-width: 1023px) {
   .section-three {
     margin: 150px 0;
@@ -129,6 +133,9 @@
           &.main {
             padding: 0 !important;
           }
+        }
+        .main-span {
+          font-size: 11px;
         }
         &.last {
           width: 85%;

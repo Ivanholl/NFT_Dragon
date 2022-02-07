@@ -8,7 +8,7 @@ import { sections, roadmap } from '../texts'
 
 import './SectionThree.scss'
 
-const Goal = ({className, isMain, title, text}) => {
+const Goal = ({className, isMain, title, text, mainSpan}) => {
   return (<div className="goal-container flex" >    
     {isMain ? <img src="../img/MainGoalConnector.svg" className="main-goal-connector"/> : <img src="../img/GoalConnector.svg" className="goal-connector"/>}
     <div className={`${className} goal`} >
@@ -18,6 +18,7 @@ const Goal = ({className, isMain, title, text}) => {
           <div className="text main" >
             <h4 className="pink" >{title}</h4>
           </div>
+          <span className="main-span white">{mainSpan}</span>
         </>)
         : (<>
           <div className="text" >
@@ -44,19 +45,19 @@ const SectionThree = () => {
       {isSmall 
         ? <>
           <div className="left flex col">
-            <Goal isMain title={phase1.goalMain}/>
+            <Goal isMain title={phase1.goalMain} mainSpan={phase1?.mainSpan}/>
             <Goal title={phase1.goal2.title} text={phase1.goal2.text} />
             {empty()}
             <Goal title={phase2.goal1.title} text={phase2.goal1.text}/>
             <Goal title={phase1.goal2.title} text={phase2.goal2.text} />
-            <Goal isMain title={phase3.goalMain}/>
+            <Goal isMain title={phase3.goalMain} mainSpan={phase2?.mainSpan}/>
             <Goal title={phase3.goal2.title} text={phase3.goal2.text} />
           </div>
           <div className="border" />
           <div className="right flex col">
             <Goal title={phase1.goal1.title} text={phase1.goal1.text}/>
             <Goal title={phase1.goal3.title} text={phase1.goal3.text}/>
-            <Goal isMain title={phase2.goalMain}/>
+            <Goal isMain title={phase2.goalMain} mainSpan={phase3?.mainSpan}/>
             <Goal title={phase2.goal3.title} text={phase2.goal3.text}/>
             {empty()}
             <Goal title={phase3.goal1.title} text={phase3.goal1.text}/>
@@ -65,15 +66,15 @@ const SectionThree = () => {
         </>
         : <>
           <div className="left flex col">
-            <Goal isMain title={phase1.goalMain}/>
+            <Goal isMain title={phase1.goalMain} mainSpan={phase1?.mainSpan}/>
             <Goal title={phase2.goal1.title} text={phase2.goal1.text}/>
             <Goal title={phase1.goal2.title} text={phase1.goal2.text}/>
             <Goal title={phase1.goal3.title} text={phase1.goal3.text}/>
-            <Goal isMain title={phase2.goalMain}/>
+            <Goal isMain title={phase2.goalMain} mainSpan={phase2?.mainSpan}/>
             <Goal title={phase2.goal1.title} text={phase2.goal1.text}/>
             <Goal title={phase2.goal2.title} text={phase2.goal2.text}/>
             <Goal title={phase2.goal3.title} text={phase2.goal3.text}/>
-            <Goal isMain title={phase3.goalMain}/>
+            <Goal isMain title={phase3.goalMain} mainSpan={phase3?.mainSpan}/>
             <Goal title={phase3.goal1.title} text={phase3.goal1.text}/>
             <Goal title={phase3.goal2.title} text={phase3.goal2.text}/>
             <Goal title={phase3.goal3.title} text={phase3.goal3.text}/>
