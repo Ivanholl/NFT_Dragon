@@ -21,10 +21,10 @@ function Splash() {
       <Header />
       <div className="title flex row center">
         <div className="flex col center">
-          <h1 className="black">{splashText?.title1}</h1>
+          <h1 className="pink left-title">{splashText?.title1}</h1>
         </div>
         <div className="flex col center">
-          <h1 className="white">{splashText?.title2}</h1>
+          <h1 className="white left-right">{splashText?.title2}</h1>
         </div>
       </div>
       <div className="flex row center">

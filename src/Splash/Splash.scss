@@ -24,6 +24,12 @@
       margin: 0;
       font-size: 1.7vw;
     }
+    .left-title {
+      text-shadow: 3px 3px $black;
+    }
+    .left-right {
+      text-shadow: 3px 3px 6px $pink;
+    }
   }
 
   .button {
@@ -65,6 +71,12 @@
         }
         &:first-of-type h1 {
           text-align: right;
+        }
+        .left-title {
+          text-shadow: 1px 1px $black;
+        }
+        .left-right {
+          text-shadow: 1px 1px 3px $pink;
         }
       }
     }
