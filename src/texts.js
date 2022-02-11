@@ -41,11 +41,11 @@ export const roadmap = {
     },
     goal2: {
       title: 'Giveaway:',
-      text: '1000 members community'
+      text: 'Give away 40 Dragons'
     },
     goal3: {
       title: 'Reach:',
-      text: 'Give away 40 Dragons'
+      text: '1000 members community'
     }
   },
   phase2: {
@@ -57,11 +57,11 @@ export const roadmap = {
     },
     goal2: {
       title: 'Giveaway:',
-      text: '8000 members community'
+      text: 'Give away 30 Dragons'
     },
     goal3: {
       title: 'Reach:',
-      text: 'Give away 30 Dragons'
+      text: '8000 members community'
     }
   },
   phase3: {
@@ -72,7 +72,7 @@ export const roadmap = {
       text: '5000 Dragons in the collection'
     },
     goal2: {
-      title: 'Giveaway:',
+      title: 'Reach:',
       text: '25 000 members community'
     },
     goal3: {
