@@ -97,7 +97,7 @@
       .main-span {
         margin-top: 9.5px;
         font-family: Avenir LT Std;
-        font-size: 24px;
+        font-size: 19px;
         position: absolute;
         width: 200%;
         bottom: -70px;
@@ -109,6 +109,9 @@
         width: 25vw;
       }
     }
+  }
+ .roadmap img.goal-border {
+    display:none;
   }
 }
 @media only screen and (max-width: 1023px) {
@@ -176,6 +179,7 @@
           padding: 0 0 0 7px;
         }
       }
+
     }
   }
 }

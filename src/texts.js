@@ -12,20 +12,20 @@ export const splashText = {
   button: 'Official Sale'
 }
 
-export const openseaBtnTxt = 'Buy in Opensea'
+export const openseaBtnTxt = 'Buy on Opensea'
 
 export const cardsTxt = {
   cardOne: {
-    title: 'PAY 1 BUY 2',
-    description: 'Find where are the hidden ETHs in the dragons. With each NFT with hidden ETH you have a chance to win one extra NFT.'
+    title: 'BUY 1, GET 1 FREE',
+    description: 'Find and buy a dragon with hidden ETH inside the NFT and you will win one extra NFT! More dragons with hidden ETHs you buy, more extra dragons you will get.'
   },
   cardTwo: {
-    title: 'HOLD YOUR nft',
-    description: 'For the first time, the NFT project is giving it’s holders 0.1% of their  Lifetime revenue. Ex: $10M/year x 0.1% = $10K/year in passive income!'
+    title: 'HOLD YOUR NFT',
+    description: 'We are giving our holders 2% of our project’s yearly revenue. More dragons, you are holding - a bigger part of the percentage you will get!'
   },
   cardThree: {
     title: 'Meet the dragon into the Metaverse',
-    description: 'Being Dragon’s supporter  helps him to make a world tour and to meet him next time into the Metaverse.'
+    description: 'Let’s meet the dragon into the METAVERSE. After minting 10K dragons, we will continue expanding the collection, but this time with a 3D view.'
   }
 }
 
@@ -37,7 +37,7 @@ export const roadmap = {
     mainSpan: '',
     goal1: {
       title: 'Mint:',
-      text: '1000 Dragons in the collection'
+      text: '2000 Dragons in the collection'
     },
     goal2: {
       title: 'Giveaway:',
@@ -45,15 +45,15 @@ export const roadmap = {
     },
     goal3: {
       title: 'Reach:',
-      text: '1000 members community'
+      text: '2000 members community'
     }
   },
   phase2: {
     goalMain: 'Phase 2',
-    mainSpan: 'The Game Release - Dragon cards Game with rules and fights.',
+    mainSpan: 'Game release - Dragon’s Game with 9 Dragon races and planets. Each race will have unique power and will fight with other dragons.',
     goal1: {
       title: 'Mint:',
-      text: '4000 Dragons in the collection'
+      text: '6000 Dragons in the collection'
     },
     goal2: {
       title: 'Giveaway:',
@@ -66,10 +66,10 @@ export const roadmap = {
   },
   phase3: {
     goalMain: 'Phase 3',
-    mainSpan: 'Many NFTs from one conception like Dragon Underworlds, Dragon in Space, etc.',
+    mainSpan: 'Many NFT dragons from different conceptions like Dragon Underworlds, Dragon in Space, Dragon Zombies, Dragon Underwater and etc.',
     goal1: {
       title: 'Mint:',
-      text: '5000 Dragons in the collection'
+      text: '2000 Dragons in the collection'
     },
     goal2: {
       title: 'Reach:',
@@ -77,7 +77,7 @@ export const roadmap = {
     },
     goal3: {
       title: 'Meet on Metaverse:',
-      text: 'Hit the price of 1 ETH for each NFT and move the project into the Metaverse'
+      text: 'After 10K dragon, we will start making 3D dragons and continue this project into the METAVERSE'
     }
   }
 }
@@ -88,96 +88,96 @@ export const slideImages = [
     caption: 'Dragon #00401'
   },
   {
-    url: '/Dragon/412.png',
-    caption: 'Dragon #00412'
-  },
-  {
-    url: '/Dragon/429.png',
-    caption: 'Dragon #00429'
+    url: '/Dragon/607.png',
+    caption: 'Dragon #00607'
   },  
   {
     url: '/Dragon/462.png',
     caption: 'Dragon #00462'
   },  
   {
-    url: '/Dragon/465.png',
-    caption: 'Dragon #00465'
-  },  
+    url: '/Dragon/620.png',
+    caption: 'Dragon #00620'
+  },
   {
     url: '/Dragon/417.png',
     caption: 'Dragon #00417'
+  },  
+  {
+    url: '/Dragon/634.png',
+    caption: 'Dragon #00634'
   },  
   {
     url: '/Dragon/398.png',
     caption: 'Dragon #00398'
   },
   {
-    url: '/Dragon/374.png',
-    caption: 'Dragon #00374'
+    url: '/Dragon/642.png',
+    caption: 'Dragon #00642'
   },
   {
     url: '/Dragon/202.png',
     caption: 'Dragon #00202'
   },
   {
-    url: '/Dragon/272.png',
-    caption: 'Dragon #00272'
-  },  
-  {
-    url: '/Dragon/299.png',
-    caption: 'Dragon #00299'
-  },  
+    url: '/Dragon/640.png',
+    caption: 'Dragon #00640'
+  },   
   {
     url: '/Dragon/105.png',
     caption: 'Dragon #00105'
   },  
   {
-    url: '/Dragon/5.png',
-    caption: 'Dragon #00005'
-  },  
+    url: '/Dragon/748.png',
+    caption: 'Dragon #00748'
+  },   
   {
     url: '/Dragon/83.png',
     caption: 'Dragon #00083'
-  },  
+  }, 
   {
-    url: '/Dragon/9.png',
-    caption: 'Dragon #00009'
-  },  
+    url: '/Dragon/768.png',
+    caption: 'Dragon #00768'
+  }, 
   {
     url: '/Dragon/35.png',
     caption: 'Dragon #00035'
-  },  
+  },   
+  {
+    url: '/Dragon/798.png',
+    caption: 'Dragon #00798'
+  }, 
   {
     url: '/Dragon/102.png',
     caption: 'Dragon #00102'
   },  
   {
-    url: '/Dragon/127.png',
-    caption: 'Dragon #00127'
-  },  
+    url: '/Dragon/716.png',
+    caption: 'Dragon #00716'
+  },   
   {
-    url: '/Dragon/177.png',
-    caption: 'Dragon #00177'
-  },  
+    url: '/Dragon/233.png',
+    caption: 'Dragon #00233'
+  }, 
   {
-    url: '/Dragon/106.png',
-    caption: 'Dragon #00106'
+    url: '/Dragon/766.png',
+    caption: 'Dragon #00766'
   },  
   {
     url: '/Dragon/205.png',
     caption: 'Dragon #00205'
   },  
   {
-    url: '/Dragon/233.png',
-    caption: 'Dragon #00233'
+    url: '/Dragon/776.png',
+    caption: 'Dragon #00776'
   },  
   {
     url: '/Dragon/282.png',
     caption: 'Dragon #00282'
   },  
   {
-    url: '/Dragon/286.png',
-    caption: 'Dragon #00286'
+    url: '/Dragon/789.png',
+    caption: 'Dragon #00789'
   }
 ]
 
